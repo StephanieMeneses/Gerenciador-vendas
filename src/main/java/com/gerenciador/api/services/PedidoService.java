@@ -89,5 +89,4 @@ public class PedidoService {
 		pedido.setVendedor(vendedorRepository.getOne(dto.getVendedor().getId())); 
 	
 	}
-	
 }
