@@ -20,6 +20,8 @@ import jakarta.persistence.EntityNotFoundException;
 @Service
 public class PedidoService {
 	
+	//Testes git
+	
 	@Autowired
 	private PedidoRepository pedidoRepository;
 	
