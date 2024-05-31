@@ -34,8 +34,6 @@ public class ClienteDTO {
 		this.telefone = entity.getTelefone();		
 	}
 	
-	
-
 	public Long getId() {
 		return id;
 	}
