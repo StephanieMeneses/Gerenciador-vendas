@@ -20,6 +20,8 @@ import jakarta.persistence.EntityNotFoundException;
 @Service
 public class PedidoService {
 	
+	//Testes git
+	
 	@Autowired
 	private PedidoRepository pedidoRepository;
 	
@@ -89,5 +91,4 @@ public class PedidoService {
 		pedido.setVendedor(vendedorRepository.getOne(dto.getVendedor().getId())); 
 	
 	}
-	
 }
