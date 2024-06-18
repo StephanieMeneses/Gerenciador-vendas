@@ -15,7 +15,8 @@ public class ClienteDTO {
 			
 	}
 	
-	public ClienteDTO(Long id, String nome, String cpf, String endereco, String email, String telefone) {
+	public ClienteDTO(Long id, String nome, String cpf, 
+			String endereco, String email, String telefone) {
 		super();
 		this.id = id;
 		this.nome = nome;
